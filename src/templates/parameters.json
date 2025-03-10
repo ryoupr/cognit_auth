@@ -1,0 +1,14 @@
+[
+  {
+    "ParameterKey": "UserPoolName",
+    "ParameterValue": "MyUserPool"
+  },
+  {
+    "ParameterKey": "IdentityPoolName",
+    "ParameterValue": "MyIdentityPool"
+  },
+  {
+    "ParameterKey": "AllowUnauthenticatedIdentities",
+    "ParameterValue": "false"
+  }
+]

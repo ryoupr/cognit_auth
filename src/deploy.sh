@@ -25,6 +25,12 @@ function show_help {
   echo "  $0 --output my-outputs.json"
 }
 
+# 引数がない場合はヘルプを表示
+if [[ $# -eq 0 ]]; then
+  show_help
+  exit 0
+fi
+
 # コマンドライン引数の解析
 while [[ $# -gt 0 ]]; do
   key="$1"

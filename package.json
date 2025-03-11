@@ -1,16 +1,22 @@
 {
-  "name": "cognit_auth",
+  "name": "node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "openid-client": "^5.7.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryoupr/cognit_auth.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ryoupr/cognit_auth/issues"
   },

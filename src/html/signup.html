@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"></meta>
+  <title>CognitoSignUp</title>
+  <script src="js/aws-cognito-sdk.min.js"></script>
+  <script src="js/amazon-cognito-identity.min.js"></script>
+  <script src="js/signup.js"></script>
+</head>
+<body>
+  <h1>CognitoSignUp</h1>
+  <span style="display: inline-block; width: 100px;">Email</span>
+  <input type="text" id="email" placeholder="Email Address">
+  <br/>
+  <span style="display: inline-block; width: 100px;">Password</span>
+  <input type="password" id="password" placeholder="Password">
+  <br/><br/>
+  <input type="button" value="CognitoSignUp" onclick="OnCognitoSignUp();">
+</body>
+</html>

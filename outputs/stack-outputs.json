@@ -1,0 +1,27 @@
+{
+  "UserPoolClientId": {
+    "Value": "69v3n1874oe9l6gs779dfjabcj",
+    "Description": "ID of the Cognito User Pool Client",
+    "ExportName": "cognito-auth-stack-UserPoolClientId"
+  },
+  "UnauthenticatedRoleArn": {
+    "Value": "arn:aws:iam::019136005936:role/cognito-auth-stack-UnauthenticatedRole-PZ5YNi9da9pH",
+    "Description": "ARN of the Unauthenticated IAM Role",
+    "ExportName": "cognito-auth-stack-UnauthenticatedRoleArn"
+  },
+  "UserPoolId": {
+    "Value": "ap-northeast-1_1Nw5bWgqw",
+    "Description": "ID of the Cognito User Pool",
+    "ExportName": "cognito-auth-stack-UserPoolId"
+  },
+  "IdentityPoolId": {
+    "Value": "ap-northeast-1:dbbb50fa-8d39-4166-9dde-ee3b30f3cd73",
+    "Description": "ID of the Cognito Identity Pool",
+    "ExportName": "cognito-auth-stack-IdentityPoolId"
+  },
+  "AuthenticatedRoleArn": {
+    "Value": "arn:aws:iam::019136005936:role/cognito-auth-stack-AuthenticatedRole-5398OdPzuorY",
+    "Description": "ARN of the Authenticated IAM Role",
+    "ExportName": "cognito-auth-stack-AuthenticatedRoleArn"
+  }
+}
